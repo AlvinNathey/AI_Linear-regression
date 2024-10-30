@@ -49,7 +49,7 @@ def linear_regression(x, y, epochs=50, learning_rate=0.0001):
     plt.ylim(min(y) - 10, max(y) + 10)  # Set y-axis limits
     
     plt.title('Line of Best Fit after Final Epoch')
-    plt.savefig('final_fit.png', dpi=300)
+    plt.savefig('result.png', dpi=300)
     return m, c
 
 # Train the model
